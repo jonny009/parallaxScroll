@@ -1,0 +1,20 @@
+html { height:100%; width:100%; }
+body { height:100%; margin:0; padding:0; width:100%; }
+.section { position:relative; z-index:1; }
+.section.isHidden { visibility:hidden; }
+.section.inFocus,
+.isTouchDevice .section { visibility:visible; }
+.fixedCon { overflow:hidden; position:fixed; top:0; }
+.fixedCon.isHidden { visibility:hidden; }
+.fixedCon.inFocus,
+.isTouchDevice .fixedCon { visibility:visible; }
+.ie .fixedCon,
+.isTouchDevice .fixedCon { position:absolute; }
+.ie .fixedCon .inFocus,
+.isTouchDevice .fixedCon .inFocus { z-index:0; }
+.ie .fixedCon.inFocus + .fixedCon.inFocus,
+.isTouchDevice .fixedCon.inFocus + .fixedCon.inFocus { z-index:-1; }
+.sectionContent { bottom:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; min-height:400px; overflow:hidden; padding-bottom:20px; position:absolute; width:100%; }
+@media only screen and (max-height: 600px){
+  .sectionContent { min-height:200px; }
+}

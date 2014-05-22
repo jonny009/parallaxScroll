@@ -50,4 +50,4 @@ $('#parallaxWrap').prallaxScroller({
 ```
 **Default: false**
 
-*Whether each section has it's own background image or they share a single background image*
+*Whether each section has it's own background image or they share a single background image. For true, omit the data-background attribute for all sections except the primary*
