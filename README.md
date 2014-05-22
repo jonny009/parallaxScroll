@@ -9,18 +9,18 @@ The HTML:
 
 ```html
 <div id="parallaxWrap">
-    <div class="section">
-        <div class="sectionContent" data-background="my-special-bg.png">
+    <div class="section" data-background="my-special-bg.png">
+        <div class="sectionContent">
             <!-- Your content goes here -->
         </div>
     </div>
-    <div class="section">
-        <div class="sectionContent" data-background="my-special-bg.png">
+    <div class="section" data-background="my-special-bg.png">
+        <div class="sectionContent">
             <!-- Your content goes here -->
         </div>
     </div>
-    <div class="section">
-        <div class="sectionContent" data-background="my-special-bg.png">
+    <div class="section" data-background="my-special-bg.png">
+        <div class="sectionContent">
             <!-- Your content goes here -->
         </div>
     </div>
